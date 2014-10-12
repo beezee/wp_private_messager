@@ -1,0 +1,37 @@
+[
+    {
+        "name": "beezee/privatemessenger",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/beezee/private_messager.git",
+            "reference": "a17d3e143f48d19ad5ccf9f18d7dcbd7849be4bf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/beezee/private_messager/zipball/a17d3e143f48d19ad5ccf9f18d7dcbd7849be4bf",
+            "reference": "a17d3e143f48d19ad5ccf9f18d7dcbd7849be4bf",
+            "shasum": ""
+        },
+        "time": "2014-10-11 16:23:53",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "PM\\": "src/PM/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Brian Zeligson",
+                "email": "brian.zeligson@gmail.com"
+            }
+        ],
+        "description": "Generic system for sending and receiving private messages"
+    }
+]

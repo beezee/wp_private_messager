@@ -1,0 +1,19 @@
+{
+    "name": "brianzeligson/wp_private_messager",
+    "description": "Wordpress integration of beezee/privatemessenger",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Brian Zeligson",
+            "email": "brian.zeligson@gmail.com"
+        }
+    ],
+    "require": {
+      "beezee/privatemessenger": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+        "WP_PM": "classes/"
+      }
+    }
+}
