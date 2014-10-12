@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'WP_PM' => array($baseDir . '/classes'),
+    'WP_PM\\' => array($baseDir . '/classes'),
     'PM\\' => array($vendorDir . '/beezee/privatemessenger/src/PM'),
 );
